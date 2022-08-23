@@ -1,0 +1,40 @@
+{
+ "name": "store-api",
+ "version": "0.0.1",
+ "description": "",
+ "scripts": {
+  "start": "nodemon server.js",
+  "dev": "nodemon server.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/abukhadraop-or/reverifi-api.git"
+ },
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/abukhadraop-or/reverifi-api/issues"
+ },
+ "homepage": "https://github.com/abukhadraop-or/reverifi-api#readme",
+ "dependencies": {
+  "axios": "^0.27.2",
+  "bcryptjs": "^2.4.3",
+  "cors": "^2.8.5",
+  "dotenv": "^16.0.1",
+  "express": "^4.17.1",
+  "jsonwebtoken": "^8.5.1",
+  "mongoose": "^6.5.2"
+ },
+ "devDependencies": {
+  "eslint": "^8.4.1",
+  "eslint-config-airbnb-base": "^15.0.0",
+  "eslint-config-prettier": "^8.3.0",
+  "eslint-import-resolver-alias": "^1.1.2",
+  "eslint-plugin-import": "^2.25.3",
+  "eslint-plugin-prettier": "^4.0.0",
+  "eslint-plugin-yml": "^0.14.0",
+  "nodemon": "^2.0.16",
+  "prettier": "^2.5.1",
+  "sequelize-cli": "^6.3.0"
+ }
+}
